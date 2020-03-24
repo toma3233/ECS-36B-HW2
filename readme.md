@@ -7,6 +7,6 @@ Program processes different types of aircrafts (having different numbers of engi
 An airline is using airplanes of various sizes to ship containers between two airports. Each shipment consists of a number of standardized containersthatmust be loaded on the airplanes so as to minimize the amount of unused space. As several shipments of different sizes arrive at the airport, the airline must decide which shipment is loaded on which plane. The following rules are applied:
     1. All airplanes are flying to the same destination, i.e. a shipment can be added to any airplane.
     2. A shipment cannot be split among different airplanes.
-    3. Once a shipment is loaded on a plane, it cannot be unloadedbefore departure.
+    3. Once a shipment is loaded on a plane, it cannot be unloaded before departure.
 
 This progran will assign shipments to airplanes in the order of the shipments’ arrival at the airport. The airline you work for operates four Airbus A321 with a capacity of 10 containers each, two Boeing B777 with a capacity of 32 containers each, and one Boeing B787 with a capacity of 40 containers.
