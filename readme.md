@@ -2,3 +2,11 @@
 
 Program processes different types of aircrafts (having different numbers of engines), requiring maintenance at different intervals. This program considers two types of aircrafts: Airbus A380 (four engines, requiring maintenance every 750 hours) and Boeing 737 (two engines, requiring maintenance every 500 hours). The input of the program is read from standard input. Each input line consists of a description of an aircraft, including the model (encoded as one character), the aircraft name (or “tail code”), and the number of hours recorded since the last maintenance check for each of its engines. The number of hours of use may differ among the engines of a given aircraft due to the fact that not all engines are subjected to maintenance at the same time. Aircrafts are represented as instances of the classes A380and B737 that are derived from a base class Aircraft. The main program maintenance.cpp is provided, together with the header file Aircraft.h. Another program testAircraft.cpp is provided that tests the functionality of the Aircraft derived classes. The maintenance program reads a list of aircraft descriptions from standard input and prints a description of the aircraft and its maintenance schedule. Example: the input line: A VH-OQF 630 550 470 690 describes an Airbus A380 named VH-OQF whose four engines have 630, 550, 470 and 690 hours of use since their last maintenance.
 
+# Air Cargo Logistics
+
+An airline is using airplanes of various sizes to ship containers between two airports. Each shipment consists of a number of standardized containersthatmust be loaded on the airplanes so as to minimize the amount of unused space. As several shipments of different sizes arrive at the airport, the airline must decide which shipment is loaded on which plane. The following rules are applied:
+    1. All airplanes are flying to the same destination, i.e. a shipment can be added to any airplane.
+    2. A shipment cannot be split among different airplanes.
+    3. Once a shipment is loaded on a plane, it cannot be unloadedbefore departure.
+
+This progran will assign shipments to airplanes in the order of the shipments’ arrival at the airport. The airline you work for operates four Airbus A321 with a capacity of 10 containers each, two Boeing B777 with a capacity of 32 containers each, and one Boeing B787 with a capacity of 40 containers.
